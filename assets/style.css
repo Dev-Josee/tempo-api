@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-tempo {
+    background-color: #e2e2e2;
+    border-radius: 38px;
+    padding: 30px;
+    width: 95%;
+    max-width: 450px;
+    box-shadow: rgba(243, 243, 243, 0.445) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+
+input::placeholder {
+    color: #000000;
+    
+}
+
+.input-cidade {
+    outline: none;
+    background-color: #cbcbcb;
+    opacity: 0.8;
+    padding: 10px;
+    border: none;
+    border-radius: 38px;
+    color: #000000;
+    font-size: 15px;
+    width: calc(100% - 70px);
+    box-shadow: rgba(149, 149, 149, 0.915) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+
+.btn-search {
+    border: none;
+    border-radius: 38px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #898989;
+    opacity: 0.8;
+    float: right;
+    
+    
+}
+
+.img-search {
+    width: 20px;
+    
+}
+
+.box-info-cidade {
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #1f1f1f;
+    font-weight: normal;
+}
+
+.graus {
+    color: #131313;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.box-info-tempo {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.icone-do-clima{
+    box-shadow: rgba(249, 249, 249, 0.227) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+p {
+    color: #161616;
+    margin-left: 10px;
+    text-transform: capitalize;
+    
+}
+
+.umidade {
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
